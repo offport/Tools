@@ -1,0 +1,1 @@
+./upload.ps1 https://domain.com/ username:password file_to_upload

@@ -306,7 +306,7 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 def test(HandlerClass = SimpleHTTPRequestHandler,
          ServerClass = BaseHTTPServer.HTTPServer):
     httpd = BaseHTTPServer.HTTPServer(('0.0.0.0', int(sys.argv[1])), HandlerClass)
-    httpd.socket = ssl.wrap_socket (httpd.socket, certfile='./server.pem', server_side=True)
+    #httpd.socket = ssl.wrap_socket (httpd.socket, certfile='./server.pem', server_side=True)
     httpd.serve_forever()
     #BaseHTTPServer.test(HandlerClass, ServerClass)
 

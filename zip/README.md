@@ -6,3 +6,10 @@ Compress file named dir1
 Uncompress file `archive.7` to directory `myfiles`. Yes. No space after -o.
 
 `7zr.exe e archive.7z -omyfiles`
+
+
+With password
+
+`7z x test.7z -pSECRET`
+
+-pSECRET  : specify the password "SECRET"

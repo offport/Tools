@@ -1,12 +1,10 @@
-ps1
+Mimikatz
 
-https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1
+- ps1 https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1
 
-64
-https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe
+- 64 https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe
 
-32
-https://github.com/ParrotSec/mimikatz/raw/master/Win32/mimikatz.exe
+- 32 https://github.com/ParrotSec/mimikatz/raw/master/Win32/mimikatz.exe
 
 Safetykatz
 
